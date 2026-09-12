@@ -1,100 +1,193 @@
-# Hi there, I'm Shehan Nimsara 👋
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:00d4ff&height=180&section=header&text=Shehan%20Nimsara&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Wijerathna%20A.M.S.N%20—%20Sri%20Lanka&descAlignY=60&descSize=16" />
 
-**Full-Stack Developer | Alternative Credit Intelligence | Sri Lanka**
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=650&lines=Full-Stack+Developer+%F0%9F%9A%80;Fintech+%2B+AI+Agents+%2B+Knowledge+Graphs;FastAPI+%E2%80%A2+React+%E2%80%A2+XGBoost+%E2%80%A2+Supabase;Building+Settl+-+credit+for+everyone" alt="typing" />
+</p>
 
-Building **Settl** — alternative credit scoring for Sri Lanka's digital economy (FastAPI + XGBoost + React). Focused on clean APIs, explainable ML, and production-ready UX.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=shehannim&color=0e75b6&style=flat" alt="views" />
+  <a href="https://github.com/shehannim?tab=followers"><img src="https://img.shields.io/github/followers/shehannim?style=social" alt="follow" /></a>
+  <img src="https://img.shields.io/badge/PRO-GitHub-0e75b6?style=flat&logo=github" alt="pro" />
+  <img src="https://img.shields.io/badge/Sri_Lanka-🇱🇰-8D6E63?style=flat" alt="lk" />
+</p>
 
-📍 Sri Lanka · ✉️ netshehannimsara@gmail.com · 🔗 [Settl MVP](https://github.com/shehannim/settl-mvp)
-
-![Profile views](https://komarev.com/ghpvc/?username=shehannim&color=0e75b6&style=flat)
-[![GitHub followers](https://img.shields.io/github/followers/shehannim?style=social)](https://github.com/shehannim)
+<p align="center">
+  📍 Sri Lanka &nbsp;•&nbsp; ✉️ <a href="mailto:netshehannimsara@gmail.com">netshehannimsara@gmail.com</a> &nbsp;•&nbsp; 🚀 <a href="https://settl-mvp.vercel.app">Settl Live</a> &nbsp;•&nbsp; ⚡ <a href="https://ai-build-athon.vercel.app">AI Build Live</a>
+</p>
 
 ---
 
-## 🚀 Featured Project
+### 👨‍💻 About Me — in one picture
 
-### [Settl — Alternative Credit Intelligence](https://github.com/shehannim/settl-mvp)
-> Credit scores (300–850) for thin-file borrowers using PayPal transaction history, utility-bill OCR, NIC KYC, and XGBoost + SHAP explainability.
-
-**Stack:** FastAPI · XGBoost · SHAP · Supabase (Postgres + Auth + Storage) · React 19 + Vite · Tailwind CSS · PayPal OAuth · Docker · Railway / Vercel
-
-**What it does:**
-- JWT auth (user + lender roles), NIC validation + OTP KYC flow
-- PayPal Sandbox OAuth → transaction ingestion → feature engineering
-- PDF utility-bill upload (CEB) → OCR extraction → human-in-loop review
-- `/api/score/compute` → score + confidence + SHAP top-factors
-- Lender query API: `GET /api/lender/query/{settl_id}` + loan-outcome feedback loop
-- Synthetic 2,000-profile training pipeline (`scripts/train_model.py`, target AUC ≥ 0.78)
-
-**API surface:** `auth · kyc · connect · ingest · score · lender` — interactive docs at `/docs`
-
-```bash
-# run backend
-pip install -r backend/requirements.txt
-python backend/scripts/train_model.py
-uvicorn app.main:app --reload --port 8000
-
-# run frontend
-cd frontend && npm install && npm run dev
+```text
+🌏  Sri Lankan builder | Fintech × AI × Automation
+💳  Settl ............. alternative credit scores 300-850 for thin-file borrowers
+🕵️  Repo Detective .... ask any repo in plain English, get cited answers
+🧵  Thread Weaver ..... multi-hop QA over thousands of pages, Obsidian-style graph
+🔄  AetherSync ........ Moodle → Google Calendar SaaS, zero duplicates
+⚡  AI Build-athon .... Supabase-powered build, live on Vercel
+🧠  Obsessed with ..... dependency graphs, PageRank, SHAP, clean APIs
 ```
 
----
-
-## 🛠️ Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/Postgres-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-EC6A04?style=for-the-badge&logo=xgboost&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-**Languages:** Python, JavaScript, C++ (fundamentals), SQL
-**Backend:** FastAPI, Pydantic, JWT, SQLAlchemy patterns, Supabase
-**ML/Data:** XGBoost, scikit-learn, SHAP, pandas, numpy
-**Frontend:** React 19, React Router 7, Axios, Tailwind CSS 4
-**DevOps:** Git, GitHub Actions, Docker, Railway, Vercel
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,fastapi,react,vite,tailwind,js,nodejs,express,postgres,supabase,sqlite,docker,git,githubactions,vercel,cpp&theme=dark" alt="stack" />
+</p>
 
 ---
 
-## 📊 GitHub Stats
+## 🎬 Featured Universe
 
-![Shehan's stats](https://github-readme-stats.vercel.app/api?username=shehannim&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shehannim&layout=compact&theme=tokyonight&hide_border=true)
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=shehannim&theme=tokyonight&hide_border=true)
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 💳 Settl — Alternative Credit Intelligence
+**`fintech` `xgboost` `shap` `fastapi` `react`**
+
+> Credit for Sri Lanka's digital economy. PayPal history + CEB bill OCR + NIC KYC → 300-850 score with explanations.
+
+🔗 [Code](https://github.com/shehannim/settl-mvp) • [Live Demo](https://settl-mvp.vercel.app) • `/docs` API
+
+```
+User ──JWT──▶ KYC(NIC+OTP) ──▶ PayPal OAuth
+   │──▶ Bill PDF ──OCR──▶ review ──▶
+   └─▶ /score/compute ──▶ 742 + SHAP factors
+Lender ──▶ /lender/query/{settl_id}
+```
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-EC6A04?style=flat&logo=xgboost&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 🕵️ Repo Detective — AI Onboarder
+**`ai-agent` `networkx` `pagerank` `hackathon`**
+
+> Onboard to any repo in minutes. "Where do I add a new endpoint?" → cited answer from a real import graph, not a guess.
+
+🔗 [Code](https://github.com/shehannim/repo_detective)
+
+```
+clone depth=1 ──▶ walk + lang-detect (25+)
+   ──▶ regex imports ──▶ DiGraph
+   ──▶ TF + PageRank×50 + in-degree
+   ──▶ /ask → top-5 files + explanations
+```
+
+Built for **AI Hackathon 2026 — Univ. of Kelaniya × Alibaba Cloud** with Qoder.
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React_Vite-646CFF?style=flat&logo=vite&logoColor=white)
+![NetworkX](https://img.shields.io/badge/NetworkX-2C8EBB?style=flat&logo=python&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧵 Thread Weaver — Graph Multi-Hop QA
+**`knowledge-graph` `rag` `streamlit` `ocr`**
+
+> Weaves threads across novels, wikis, codex books + ephemera into an Obsidian-style vault. Vector RAG can't hop — this can.
+
+🔗 [Code](https://github.com/shehannim/thread-weaver)
+
+```
+PDF/DOCX/MD ──pdfplumber+PyMuPDF──▶
+  ├─ tesseract OCR fallback
+  └─ RecursiveCharacterSplitter
+      ──▶ entities ──▶ graph.json
+      ──▶ Streamlit: offline deterministic
+          / online OpenRouter synthesis
+```
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 🔄 AetherSync — Moodle → GCal SaaS
+**`nodejs` `express` `sqlite` `oauth`**
+
+> Multi-user sync service. Assignments, quizzes, tutorials → Google Calendar. No duplicates. Auto-cleans cancelled events.
+
+🔗 [Code](https://github.com/shehannim/moodle-gcal-sync)
+
+```
+Moodle API ──▶ hash md5(moodle_ev_{id}_u_{user})
+  ──▶ GCal id = 32-char hex
+  ├─ exists? compare → update : insert
+  └─ missing? delete obsolete future events
+⏰ daemon: hourly sync + glassmorphic dashboard
+```
+
+![Node](https://img.shields.io/badge/Node-339933?style=flat&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000?style=flat&logo=express&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+> ⚡ Plus **[ai-build-athon](https://github.com/shehannim/ai-build-athon)** — Supabase + JS build, live at [ai-build-athon.vercel.app](https://ai-build-athon.vercel.app) — 49 commits of pure iteration.
 
 ---
 
-## 🗂️ More Work
+## 📊 Visual Stats
 
-- **C++ Console Foundations** — 10+ console apps (Hello, Trial 101, Project 1-4): OOP basics, I/O, Visual Studio toolchain. Private local history, being cleaned and pushed progressively.
-- **Biomechanics PDF tooling** — local PDF experiments (`biomechanics-pdf/`).
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=shehannim&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=shehannim&theme=tokyonight&hide_border=true" />
+</p>
 
-> Currently polishing repos: adding READMEs, `.gitignore`, Dockerfiles, and CI to every project.
+<p align="center">
+  <img width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shehannim&layout=compact&theme=tokyonight&hide_border=true" />
+  <img width="60%" src="https://github-readme-activity-graph.vercel.app/graph?username=shehannim&theme=tokyo-night&hide_border=true&area=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=shehannim&theme=tokyonight&no-frame=true&margin-w=6&row=1&column=6" />
+</p>
+
+<details>
+<summary><b>🧰 Full toolbox (click)</b></summary>
+<br>
+
+**Languages:** Python, JavaScript, C++, SQL
+**Backend:** FastAPI, Pydantic v2, JWT, Node.js, Express, REST, OpenAPI
+**AI/ML:** XGBoost, scikit-learn, SHAP, pandas, TF-IDF, PageRank, LangChain, Voyage embeddings, OpenRouter
+**Frontend:** React 19, React Router 7, Vite, Tailwind 4, Axios, Glassmorphism, Streamlit
+**Data/Infra:** Supabase (Postgres/Auth/Storage), SQLite, Docker, Railway, Vercel, GitHub Actions, Tesseract OCR
+
+</details>
 
 ---
 
-## 🌱 Currently
+## 🌱 Now + Next
 
-- [ ] Shipping Settl 2.0 UI (dashboard, KYC, bill verification)
-- [ ] Adding lender analytics + outcome tracking
-- [ ] Learning: TypeScript, system design, ML model monitoring
+- 🔨 Settl 2.0 — dashboard, KYC polish, lender analytics + outcome loop
+- 🕵️ Repo Detective streaming `/ask/stream` + issue triage
+- 🧵 Thread Weaver graph rebuild + evidence UI
+- 📚 Learning: TypeScript, system design, model monitoring
 
----
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="quote" />
+</p>
 
-## 📫 Contact
+### 📫 Say hello
 
-- Email: netshehannimsara@gmail.com
-- GitHub: [@shehannim](https://github.com/shehannim)
-- Settl demo: backend `/docs` + frontend `npm run dev`
+<p align="center">
+  <a href="mailto:netshehannimsara@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/shehannim/settl-mvp"><img src="https://img.shields.io/badge/Settl_Live-00d4ff?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://github.com/shehannim"><img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,100:0e75b6&height=120&section=footer" />
 
-⭐ *If you find Settl interesting, a star helps — and lender / fintech feedback is welcome.*
-
-<!-- Last updated: auto-commit bot keeps this profile active daily. See LAST_UPDATED.md -->
+<!-- auto-keeper: see LAST_UPDATED.md, updated daily by .github/workflows/daily-commit.yml -->
