@@ -142,17 +142,22 @@ Moodle API ──▶ hash md5(moodle_ev_{id}_u_{user})
 ## 📊 Visual Stats
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=shehannim&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=shehannim&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=shehannim&theme=tokyonight&hide_border=true&border_radius=8" alt="streak" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shehannim&theme=tokyonight" alt="profile details" />
 </p>
 
 <p align="center">
-  <img width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shehannim&layout=compact&theme=tokyonight&hide_border=true" />
-  <img width="60%" src="https://github-readme-activity-graph.vercel.app/graph?username=shehannim&theme=tokyo-night&hide_border=true&area=true" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shehannim&theme=tokyonight" alt="repos per language" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shehannim&theme=tokyonight" alt="most commit language" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=shehannim&theme=tokyonight&no-frame=true&margin-w=6&row=1&column=6" />
+  <img width="100%" src="https://ghchart.rshah.org/00D4FF/shehannim" alt="contribution chart" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shehannim&theme=tokyonight" alt="stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shehannim&theme=tokyonight&utcOffset=5.5" alt="productive time" />
 </p>
 
 <details>
