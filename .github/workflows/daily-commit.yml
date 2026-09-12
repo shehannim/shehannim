@@ -1,0 +1,35 @@
+name: Daily Auto Commit
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # every day at 00:00 UTC
+  workflow_dispatch:      # allow manual run from Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update activity log
+        run: |
+          DATE=$(date -u +"%Y-%m-%d %H:%M UTC")
+          echo "# Activity Log" > LAST_UPDATED.md
+          echo "" >> LAST_UPDATED.md
+          echo "Last auto-update: $DATE" >> LAST_UPDATED.md
+          echo "" >> LAST_UPDATED.md
+          echo "Profile maintained by Shehan Nimsara (@shehannim). Daily keeper commit to keep contribution graph active." >> LAST_UPDATED.md
+          echo "- Focus: Settl — FastAPI + XGBoost + React credit intelligence" >> LAST_UPDATED.md
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: daily activity keeper 🤖"
+          file_pattern: LAST_UPDATED.md
+          commit_user_name: shehannim
+          commit_user_email: netshehannimsara@gmail.com
+          commit_author: shehannim <netshehannimsara@gmail.com>
